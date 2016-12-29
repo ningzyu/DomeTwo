@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recycler01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zm.text3.ui.a9_activity.Recycler01">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/toolbar_layout"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/vip_recycler1"
+            android:divider="#ffff0000"
+            android:dividerHeight="10dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:paddingTop="50dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/click"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity=""
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/yuan"
+        android:gravity="center"
+        android:text="type"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp" />
+</RelativeLayout>
