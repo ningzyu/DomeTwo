@@ -28,7 +28,6 @@ public class RecyclerListFragment extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
         RecyclerViewAdapter adapter = new RecyclerViewAdapter(getActivity());
         //参数view即为我们在onCreateView中return的view
         RecyclerView recyclerView = (RecyclerView)view;
@@ -38,9 +37,6 @@ public class RecyclerListFragment extends Fragment {
         recyclerView.setAdapter(adapter);
         //设置布局类型为LinearLayoutManager，相当于ListView的样式
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-
-
-
         //关联ItemTouchHelper和RecyclerView,实现拖动和侧滑删除
         ItemTouchHelper.Callback callback = new SimpleItemTouchHelperCallback(adapter);
         ItemTouchHelper mItem = new ItemTouchHelper(callback);

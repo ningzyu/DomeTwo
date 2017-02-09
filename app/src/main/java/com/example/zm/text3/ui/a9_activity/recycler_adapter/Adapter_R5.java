@@ -28,7 +28,7 @@ public class Adapter_R5 extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private final Context mContext;
     private RecyclerView recyclerView;
     private List<R5_Entity.ListBean> list;
-    //刷新页面是调用
+    //刷新页面时调用
     public List<R5_Entity.ListBean> getResults() {
         return list;
     }
@@ -74,7 +74,6 @@ public class Adapter_R5 extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
                 return null;
         }
     }
-
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
 

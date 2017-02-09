@@ -21,6 +21,7 @@ public class Toos {
     }
     public static void getImg1(Context context, String path, final ImageView iv){
         Picasso picasso= Picasso.with(context);
+//        picasso.load(path).config(Bitmap.Config.RGB_565).into(photoView, callback);
         //1路径。加载时显示。失败图。宽高。图片的质量。设置图片样式（方法）.控件
         picasso.load(path).placeholder(R.mipmap.ic_launcher).error(R.mipmap.ic_launcher)
                 .resize(200,500)

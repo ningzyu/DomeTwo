@@ -3,7 +3,6 @@ package com.example.zm.text3;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -28,7 +27,7 @@ import com.example.zm.text3.ui.Activity12;
 import com.example.zm.text3.ui.Activity13;
 import com.example.zm.text3.ui.Activity15;
 import com.example.zm.text3.ui.Activity16;
-import com.example.zm.text3.ui.Activity_14;
+import com.example.zm.text3.ui.Activity14;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -63,7 +62,7 @@ public class MainActivity extends BaseActivity {
         initData("嵌套滑动",new Activity11());
         initData("版本跟新",new Activity12());
         initData("轮播",new Activity13());
-        initData("自定义轮播",new Activity_14());
+        initData("自定义轮播",new Activity14());
         initData("自定义轮播",new Activity15());
         initData("查看路径Domo",new Activity16());
     }

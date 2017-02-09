@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.zm.text3.ui.Activity_14">
+    tools:context="com.example.zm.text3.ui.Activity14">
     <include layout="@layout/toolbar_layout"/>
     <com.example.zm.text3.view.MyBanner1
         android:id="@+id/banner"

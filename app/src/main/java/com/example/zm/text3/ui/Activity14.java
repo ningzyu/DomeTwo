@@ -6,7 +6,7 @@ import com.example.zm.text3.R;
 import com.example.zm.text3.base.BaseActivity;
 import com.example.zm.text3.view.MyBanner1;
 
-public class Activity_14 extends BaseActivity {
+public class Activity14 extends BaseActivity {
     private MyBanner1 banner;
     private String[] img=new String[4];
     @Override
